@@ -7,18 +7,13 @@
     <style>
     </style>
     <body id="body">
-        <canvas id="canvas">
+      
         
         <img  id="img"src="https://github.com/invitationm/a/blob/master/simple%20champ.png" style="display: block;  max-width: 100;">
         
-        </canvas>
+        
         <script>
-            var canvas = document.getElementById("canvas");
-            canvas.style.width=screen.width;
-            canvas.style.height=screen.height;
-            var ctx = canvas.getContext("2d");
-            var img = document.getElementById("img")
-            ctx.drawImage(img, 10, 10);
+            
             
         
             
@@ -29,8 +24,87 @@
             function frame1(){
                 var x = document.getElementById("img");
                 x.style.transform = 'rotate(10deg)';
-                setInterval(frame2, 300)
+                setInterval(frame2, 300);
             }
+            function frame2(){
+                var x = document.getElementById("img");
+                x.style.transform = 'rotate(20deg)';
+                setInterval(frame3, 300);
+            }
+            function frame3(){
+                var x = document.getElementById("img");
+                x.style.transform = 'rotate(30deg)';
+                setInterval(frame4, 300);
+            }
+            function frame4(){
+                var x = document.getElementById("img");
+                x.style.transform = 'rotate(40deg)';
+                setInterval(frame5, 300);
+            }
+            function frame5(){
+                var x = document.getElementById("img");
+                x.style.transform = 'rotate(50deg)';
+                setInterval(frame6, 300);
+            }
+            function frame6(){
+                var x = document.getElementById("img");
+                x.style.transform = 'rotate(60deg)';
+                setInterval(frame7, 300);
+            }
+            function frame7(){
+                var x = document.getElementById("img");
+                x.style.transform = 'rotate(70deg)';
+                setInterval(frame8, 300);
+            }
+            function frame8(){
+                var x = document.getElementById("img");
+                x.style.transform = 'rotate(80deg)';
+                setInterval(frame9, 300);
+            }
+            function frame9(){
+                var x = document.getElementById("img");
+                x.style.transform = 'rotate(90deg)';
+                setInterval(frame10, 300);
+            }
+            function frame10(){
+                var x = document.getElementById("img");
+                x.style.transform = 'rotate(100deg)';
+                setInterval(frame11, 300);
+            }
+            function frame11(){
+                var x = document.getElementById("img");
+                x.style.transform = 'rotate(110deg)';
+                setInterval(frame12, 300);
+            }
+            function frame12(){
+                var x = document.getElementById("img");
+                x.style.transform = 'rotate(120deg)';
+                setInterval(frame13, 300);
+            }
+            function frame13(){
+                var x = document.getElementById("img");
+                x.style.transform = 'rotate(120deg)';
+                setInterval(frame14, 300);
+            }
+            function frame14(){
+                var x = document.getElementById("img");
+                x.style.transform = 'rotate(120deg)';
+                setInterval(frame15, 300);
+            }
+            
+            
+
+            
+
+
+
+
+
+
+            
+
+            
+
 
 
         </script>

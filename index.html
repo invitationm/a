@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>
+            Invitation
+        </title>
+    </head>
+    <style>
+    </style>
+    <body id="body">
+        <canvas id="canvas">
+        
+        <img  id="img"src="https://github.com/invitationm/a/blob/master/simple%20champ.png" style="display: block;  max-width: 100;">
+        
+        </canvas>
+        <script>
+            var canvas = document.getElementById("canvas");
+            canvas.style.width=screen.width;
+            canvas.style.height=screen.height;
+            var ctx = canvas.getContext("2d");
+            var img = document.getElementById("img")
+            ctx.drawImage(img, 10, 10);
+            
+        
+            
+
+            
+            setInterval(frame1, 1000);
+
+            function frame1(){
+                var x = document.getElementById("img");
+                x.style.transform = 'rotate(10deg)';
+                setInterval(frame2, 300)
+            }
+
+
+        </script>
+    </body>
+</html>
